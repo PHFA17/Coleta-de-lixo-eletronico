@@ -97,6 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "Renan",
         "Wesley",
         "Aquila",
+        "Ryan",
         "Vitor Rafael"
     ];
     
