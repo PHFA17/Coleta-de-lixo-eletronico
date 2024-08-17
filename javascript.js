@@ -71,24 +71,6 @@ document.addEventListener("DOMContentLoaded", function() {
         showImage(varpagina);
         console.log(varpagina + " varpagina");
     });
-    
-    const setas = document.querySelectorAll(".setas")
-    
-    function aplicartemaclaro() {
-        fundo.classList.add("light-mode");
-        console.log("Tema claro aplicado");
-        setas.forEach(seta => {
-            seta.classList.add("lightmode")
-        })
-    }
-    
-    function aplicartemaescuro() {
-        fundo.classList.remove("light-mode");
-        console.log("Tema escuro aplicado");
-        setas.forEach(seta => {
-            seta.classList.remove("lightmode")
-        })
-    }
 
     const nomes = [
         "Pedro Henrique Fabiano de Almeida",
