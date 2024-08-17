@@ -179,11 +179,6 @@
     bottom: 30px;
   }
 
-  #avancar img, #retroceder img{
-    width: 10vw;
-    height: 10vw;
-  }
-
   #retroceder{
     rotate: 180deg;
   }
