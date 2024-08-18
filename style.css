@@ -306,7 +306,7 @@
   }
 
   .title{
-    font-size: 30px;
+    font-size: 8vw;
   }
   
   #text p{
@@ -344,7 +344,7 @@
   #text2{
     width: 100%;
     padding: 30px;
-    font-size: 20px;
+    font-size: 5.5vw;
   }
 
   ul{
