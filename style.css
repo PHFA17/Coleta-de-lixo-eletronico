@@ -244,7 +244,7 @@
     justify-content: center;
   }
   
-  #square{
+  .square{
     width: 45lvw;
     height: 30lvh;
     min-height: 30lvw;
@@ -257,7 +257,7 @@
     bottom: -14lvh;
   }
 
-  sqrdiv{
+  .sqrdiv{
     position: relative;
   }
 
