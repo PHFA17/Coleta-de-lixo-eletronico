@@ -74,13 +74,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const nomes = [
         "Pedro Henrique Fabiano de Almeida",
-        "Pedro Henrique Oliveira Sena",
-        "Sahmuel Hidalgo",
-        "Renan",
-        "Wesley",
-        "Aquila",
-        "Ryan",
-        "Vitor Rafael"
     ];
     
     // Índice inicial
