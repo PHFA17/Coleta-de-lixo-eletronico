@@ -3,132 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coleta de lixo eletrônico</title>
-</head>
+    <title>Electronic Waste Collection</title>
 
     <link rel="stylesheet" href="style.css">
-
     <link rel="shortcut icon" href="./images/Nokia.png" type="image/x-icon">
 
     <script src="javascript.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    
-
-<body class="fundo">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="background">
 
     <header>
         <img src="./images/vecteezy_simplicity-zanzibar-gem-plant-simplicity-freehand-drawing_11793510.png" alt="">
         <div class="sqrdiv"><div class="square"></div></div>
-        <h1><i>ARRETEC</i></h1>
-        <h2><i>Lixo eletrônico? Reciclagem é a solução!</i></h2>
+        <h1><i>COLLETEC</i></h1>
+        <h2><i>Electronic waste? Recycling is the solution!</i></h2>
     </header>
 
     <div id="container">
-        
-        <div class="setas" id="retroceder"><img src="./images/Seta.png" alt=""></div>
+        <div class="arrows" id="go-back"><img src="./images/Seta.png" alt=""></div>
         
         <div id="image-container">
+            <div id="page"></div>
             
-            <div id="pagina"></div>
-            
-            <div class="divimagens">
-                
-                <img class="imagens" src="./images/WhatsApp Image 2024-08-13 at 6.10.14 PM (1).jpeg" alt="">
-
-                <div class="info sumir-info">
-
-                    <p>
-                        
-                    </p>
-
-                </div>
-
+            <div class="image-div">
+                <img class="images" src="./images/WhatsApp Image 2024-08-13 at 6.10.14 PM (1).jpeg" alt="">
+                <div class="info hide-info"><p></p></div>
             </div>
             
-            <div class="divimagens">
-                
-                <img class="imagens" src="./images/WhatsApp Image 2024-08-13 at 6.10.14 PM (2).jpeg" alt="">
-
-                <div class="info sumir-info">
-
-                    <p>
-                        
-                    </p>
-
-                </div>
-
+            <div class="image-div">
+                <img class="images" src="./images/WhatsApp Image 2024-08-13 at 6.10.14 PM (2).jpeg" alt="">
+                <div class="info hide-info"><p></p></div>
             </div>
             
-            <div class="divimagens">
-                
-                <img class="imagens" src="./images/WhatsApp Image 2024-08-13 at 6.10.14 PM (3).jpeg" alt="">
-
-                <div class="info sumir-info">
-
-                    <p>
-                        
-                    </p>
-
-                </div>
-
+            <div class="image-div">
+                <img class="images" src="./images/WhatsApp Image 2024-08-13 at 6.10.14 PM (3).jpeg" alt="">
+                <div class="info hide-info"><p></p></div>
             </div>
             
-            <div class="divimagens">
-                
-                <img class="imagens" src="./images/WhatsApp Image 2024-08-13 at 9.44.49 AM.jpeg" alt="">
-
-                <div class="info sumir-info">
-
-                    <p>
-                        
-                    </p>
-
-                </div>
-
+            <div class="image-div">
+                <img class="images" src="./images/WhatsApp Image 2024-08-13 at 9.44.49 AM.jpeg" alt="">
+                <div class="info hide-info"><p></p></div>
             </div>
-            
         </div>
 
-        <div class="setas"  id="avancar"><img src="./images/Seta.png" alt=""></div>
+        <div class="arrows" id="go-forward"><img src="./images/Seta.png" alt=""></div>
     </div>
 
     <div id="text">
-        <span class="title">O que é WEE?</span>
-        <p>Waste of electronic equipment (WEE), ou resíduos de equipamentos elétricos e eletrónicos (REEE).</p>
-        <span class="title">Geração de Empregos.</span>
-        <p>A reciclagem de eletrônicos cria empregos em várias etapas, desde a coleta até o processamento e venda de materiais reciclados.</p>
-        <span class="title">Economia de Energia.</span>
-        <p>Produzir novos dispositivos a partir de materiais reciclados consome menos energia do que usar matérias-primas virgens, reduzindo emissões de gases de efeito estufa.</p>
-        <span class="title">Redução da Poluição Ambiental.</span>
-        <p>Equipamentos eletrônicos contêm substâncias tóxicas como mercúrio e chumbo. Descartados inadequadamente, podem contaminar solo, água e ar.</p>
-        <span class="title">Economizar.</span>
-        <p>Economia de Energia: A produção de novos dispositivos a partir de materiais reciclados consome menos energia do que a fabricação a partir de matérias-primas virgens. Isso ajuda a reduzir a emissão de gases de efeito estufa e a conservar recursos naturais. Geração de Empregos: A indústria de reciclagem de eletrônicos pode criar empregos em várias etapas do processo, desde a coleta e triagem até o processamento e a venda de materiais reciclados</p>
+        <span class="title">What is WEE?</span>
+        <p>Waste of electronic equipment (WEE), or waste electrical and electronic equipment (WEEE).</p>
+        <span class="title">Job Creation.</span>
+        <p>Electronic recycling creates jobs at various stages, from collection to processing and selling recycled materials.</p>
+        <span class="title">Energy Saving.</span>
+        <p>Producing new devices from recycled materials consumes less energy than using raw materials, reducing greenhouse gas emissions.</p>
+        <span class="title">Environmental Pollution Reduction.</span>
+        <p>Electronic devices contain toxic substances like mercury and lead. Improper disposal can contaminate soil, water, and air.</p>
+        <span class="title">Savings.</span>
+        <p>Energy Saving: Producing new devices from recycled materials consumes less energy than manufacturing with raw materials. This helps reduce greenhouse gas emissions and conserve natural resources. Job Creation: The electronics recycling industry can create jobs at various stages of the process, from collection and sorting to processing and selling recycled materials.</p>
 
-        <span class="title">Pontos negativos de não se reciclar.</span>
+        <span class="title">Negative Points of Not Recycling.</span>
         <ul>
-
-            <li>Riscos à saúde humana devido à exposição a metais pesados.</li>
-            <li>Desperdício de recursos valiosos.</li>
-            <li>Contaminação do solo e da água por substâncias tóxicas.</li>
-
+            <li>Health risks due to exposure to heavy metals.</li>
+            <li>Waste of valuable resources.</li>
+            <li>Contamination of soil and water by toxic substances.</li>
         </ul>
-
     </div>
-    
-    <footer>
-
-        <p>Ainda tem <a href="contatos.html">dúvidas</a>?</p>
-        <p>Verifique as perguntas mais frequentes ou <a href="contatos.html">pergunte</a> a um dos adms.</p>
-
-    </footer>
 
     <div id="footer">
-        Feito por: <br>
-        <p id="nomes"></p>
-        <p>©Direitos reservados<a href="contatos.html">FAQ</a></p>
+        Made by: <br>
+        <p id="names"></p>
+        <p>© All rights reserved <a href="contacts.html">FAQ</a></p>
     </div>
 
 </body>
