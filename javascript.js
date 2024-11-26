@@ -71,26 +71,6 @@ document.addEventListener("DOMContentLoaded", function() {
         showImage(varpagina);
         console.log(varpagina + " varpagina");
     });
-
-    const nomes = [
-        "Pedro Henrique Fabiano de Almeida",
-        "Pedro Henrique Fabiano de Almeida"
-    ];
-    
-    // Índice inicial
-    let indiceAtual = 0;
-    
-    // Função para atualizar o nome
-    function atualizarNome() {
-        // Atualiza o conteúdo do elemento com o nome atual
-        document.querySelector("#nomes").innerHTML = nomes[indiceAtual];
-        
-        // Incrementa o índice, ou reseta para 0 se atingir o fim do array
-        indiceAtual = (indiceAtual + 1) % nomes.length;
-    }
-    
-    // Chama a função a cada 3 segundos (3000 milissegundos)
-    setInterval(atualizarNome, 3000);
     
 });
 
